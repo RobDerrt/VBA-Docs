@@ -38,6 +38,7 @@ The following example displays the name of the default list object on Sheet1 of 
  
  Set wrksht = ActiveWorkbook.Worksheets("Sheet1") 
  Set oListObj = wrksht.ListObjects.Item(1).Name
+ MsgBox oListObj.Name
 ```
 
 
